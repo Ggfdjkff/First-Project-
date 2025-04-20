@@ -98,16 +98,18 @@ button.white {
     font-size: 16px;
     font-weight: 600;
     color: black;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 
 #navbar li a:hover,
 #navbar li a.active {
-    color: blue;
+    color: #007BFF;
+    width: 100%;
+    border-bottom: 2px solid #007BFF;
 }
 
 #hero {
-    background-image: url("Image/l5.jpg");
+    background-image: url("Image/l6.jpeg");
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -254,7 +256,7 @@ button.white {
 
 #product1 .pro .des h4 {
     padding-top: 7px;
-    font-size: : 15px;
+    font-size:  15px;
 }
 
 #product1 .pro .fa-solid fa-cart-shopping {
@@ -452,9 +454,14 @@ footer .logo{
     margin-bottom: 30px;
 }
 footer p{
-    font-size: 13px;
+    font-size: 14px;
     margin: 0 0 8px 0;
+    
 }
+footer h4 {
+    padding-bottom: 20px;
+}
+
 footer a{
     font-size: 13px;
     text-decoration: none;
@@ -469,3 +476,335 @@ footer .Follow{
     padding-right: 4px;
     cursor: pointer;
 }
+
+footer .install .row img{
+    border: 1px solid #088178;
+    border-radius: 6px;
+}
+footer .install img {
+    margin: 10px 0 15px 0;
+}
+footer .Follow i:hover,
+footer a:hover 
+{
+    color: #088178;
+
+}
+footer .icon {
+    padding-top: 10px;
+}
+
+footer .copyright {
+    text-align: center;
+    width: 100%;
+}
+
+/* Shope page*/
+#Page-header {
+    background-image: url(Image/Banner/b1.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+
+}
+#Page-header h2 ,
+#Page-header p{
+    color: #fff;
+}
+
+#pagination {
+    text-align: center;    
+}
+#pagination a{
+    text-decoration: none;
+    background-color: #088178;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+}
+
+/* Single Product */
+#prodetails {
+    display: flex;
+    margin-top: 20px;
+}
+
+#prodetails .single-pro-image
+ {
+    width: 40%;
+    margin: 50px;
+}
+
+#prodetails .small-img-group
+{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col
+{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+.single-pro-details{
+    width: 50%;
+    padding: 30px;
+}
+.single-pro-details h4
+{
+    padding: 40px 0 20px 0;
+}
+.single-pro-details h3{
+    padding-top: 30px;
+    color: #007BFF;
+    font-size: 26px;
+}
+.single-pro-details select 
+{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+.single-pro-details input{
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+
+}
+.single-pro-details button{
+    background: #088178;
+    width: 100px;
+    height: 47px;
+    color: #fff;
+
+}
+.single-pro-details input:focus{
+    outline: none;
+}
+.single-pro-details span {
+    line-height: 25px;
+}
+
+/* Blog Page*/
+
+#blog
+{
+    background-image: url("Image/m1.jpg");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+
+}
+
+#blog-sec {
+    padding: 150px 150px 0 150px;
+}
+
+#blog-sec .blog-box{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    padding-bottom: 90px;
+}
+#blog-sec .blog-img{
+    width: 50%;
+    margin-right: 40px;
+}
+#blog-sec img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+#blog-sec .blog-details 
+{
+    width: 50%;
+
+}
+#blog-sec .blog-details a{
+    text-decoration: none;
+    font-size: 11px;
+    color: #000;
+    font-weight: 700;
+    position: relative;
+    transition: 0.3sec;
+}
+#blog-sec .blog-details a::after{
+    content: "";
+    width: 50px;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    top: 40px;
+    right: -60px;
+}
+#blog-sec .blog-details a:hover{
+    color: #088178;
+}
+#blog-sec .blog-details a:hover::after{
+    background-color: #088178;
+}
+#blog-sec .blog-box h1{
+    position: absolute;
+    top: -40px;
+    font-size: 70px;
+    font-weight: 700;
+    color: #c9cbcc;
+    z-index: -9;
+}
+
+/*About Page */ 
+
+#about
+{
+    background-image:url("Image/About/banner.png") ;
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
+#about-head img {
+    width: 40%;
+    height: auto;
+}
+#about-head {
+    display: flex;
+    align-items: center;
+}
+#about-head div {
+    padding-left: 40px;
+}
+#about-app h1{
+    color: #000;
+    text-align: center;
+}
+
+
+/* Cart List */
+
+#cart table{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+
+}
+#cart table img
+{
+    width: 70px;
+}
+
+#cart table td:nth-child(1)
+{
+    width: 150px;
+    text-align: center;
+}
+
+#cart table td:nth-child(2)
+{
+    width: 200px;
+    text-align: center;
+}
+
+#cart table td:nth-child(3)
+{
+    width: 250px;
+    text-align: center;
+}
+
+#cart table td:nth-child(4),
+#cart table td:nth-child(5),
+#cart table td:nth-child(6)
+{
+    width: 150px;
+    text-align: center;
+}
+#cart table td:nth-child(5) input
+{
+    width: 70px;
+    padding: 10px 5px 10px 15px;
+}
+#cart table thead
+{
+    border: 1px solid #e2e9e1;
+    border-left: none;
+    border-right: none;
+    
+}
+#cart table thead td
+{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 18px 0;
+}
+#cart table thead tr td 
+{
+    padding-top: 15px;
+}
+#cart table tbody td
+{
+    font-size: 13px;
+}
+
+
+/* Login Page*/
+#login .login-container {
+    padding-top: 120px;
+    padding-left: 30px;
+
+}
+#login {
+    background-image: url("Image/l3.jpg");
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position-x: top 25% right 0;
+    padding: 10 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#login .login-container h2{
+    padding-bottom: 25px;
+}
+
+#login .input-group{
+    padding-bottom: 15px;
+}
+
+#login .login-btn{
+    background-color: #088178;
+    color: #fff;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    height: 40%;
+    width: 40%;
+
+}
+
+
+
+
+
+
+
